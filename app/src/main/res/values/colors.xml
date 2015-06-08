@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber_100">#ffffecb3</color>
+    <color name="amber_300">#ffffd54f</color>
+    <color name="amber_500">#ffffc107</color>
+    <color name="banner_background">#ff2b7507</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue_300">#ff91a7ff</color>
+    <color name="blue_400">#ff738ffe</color>
+    <color name="blue_500">#ff5677fc</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <item type="color" name="common_signin_btn_dark_text_default">@*android:color/white</item>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <item type="color" name="common_signin_btn_dark_text_focused">@*android:color/white</item>
+    <item type="color" name="common_signin_btn_dark_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <item type="color" name="common_signin_btn_light_text_pressed">@*android:color/white</item>
+    <color name="divider_bg">#28ffffff</color>
+    <color name="green_bar">#ff78bd56</color>
+    <color name="green_bg">#ff329800</color>
+    <color name="indigo_400">#ff5c6bc0</color>
+    <color name="indigo_500">#ff3f51b5</color>
+    <color name="orange_500">#ffff9800</color>
+    <color name="text_black">#d8000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#ff808080</color>
+    <color name="wallet_hint_foreground_holo_light">#ff808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#ff0000ee</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#fff8ff36</color>
+    <color name="yellow_pressed">#ffe1e733</color>
+</resources>

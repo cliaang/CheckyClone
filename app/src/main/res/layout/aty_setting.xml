@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff329800"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+    android:id="@+id/actionbar_setting"
+    android:layout_marginTop="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:actionBarSize"
+    android:layout_alignParentTop="true"
+    layout="@layout/actionbar_setting" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@id/actionbar_setting"
+        android:paddingTop="20.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <View
+            android:background="@color/divider_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="20.0dip"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="20.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10.0">
+
+            <TextView
+                android:textSize="18.0sp"
+                android:textColor="#ffffffff"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_notifications"
+                android:layout_weight="7.0" />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3.0">
+
+                <ToggleButton
+                    android:id="@+id/notifications_toggle"
+                    android:background="@drawable/button_toggle"
+                    android:layout_width="70.0dip"
+                    android:layout_height="45.0dip"
+                    android:textOn="@null"
+                    android:textOff="@null"
+                    android:text="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:background="@color/divider_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:paddingTop="40.0dip"
+            android:paddingBottom="20.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_follow_text" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/button_facebook"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/button_facebook"
+                android:onClick="onSocialButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button_twitter"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/button_twitter"
+                android:onClick="onSocialButtonClick" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#aaffffff"
+            android:gravity="center"
+            android:id="@+id/app_version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:text="v1.0.0" />
+    </LinearLayout>
+
+</RelativeLayout>
